@@ -1,0 +1,104 @@
+/* General Page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: #f4f4f4;
+}
+
+/* Banner */
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+header button {
+    padding: 12px 25px;
+    background-color: white;
+    color: #2e8b57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Services */
+
+.services {
+    display: grid;
+
+    grid-template-columns: repeat(3,1f
+    r);
+    gap: 20px;
+    padding: 40px;
+    
+}
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 
+    lightgray;
+}
+
+
+.service h2 {
+    color: #2e8b57;
+    
+
+}
+
+/* Testimonials */
+
+.testimonials {
+    background-color: #eaf7ea;
+    text-align: center;
+    padding: 40px;
+}
+
+.testimonials h2 {
+    color: #2e8b57;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+/* Responsive Design */
+
+@media(max-width:768px){
+
+.services {
+    grid-template-columns: 1fr;
+}    
+header{
+    padding: 30px;
+}
+header h1 {
+    font-family: 30px;
+}
+}
+    
