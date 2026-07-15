@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f8f1ef;
+    padding: 40px 20px;
+}
+.recipe-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 30px;
+     padding: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px gray;
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+/*Hover effect on CarD */
+.recipe-card:hover {
+    transform: translate(-10px);
+}
+
+/* Food picture style */
+.recipe-image {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-card h2 {
+    color: brown;
+    margin: 15px 0;
+
+}
+.recipe-card h3  {
+    color: chocolate;
+
+}
+.recipe-card ul {
+
+
+    text-align: left;
+    line-height: 1.6;
+}
+
+/*View Recipe button */
+button {
+    background-color: brown;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+}
+
+/* Button hover effect */
+     button:hover {
+    background-color: orange;
+}
+/* h1-main section */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
